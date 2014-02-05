@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+   
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tracksource"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Button
+        android:id="@+id/botaoPoi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Ponto de Interesse" />
+    
+    <Button
+        android:id="@+id/botaoGravarTrilha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravar trilha" />
+
+    
+
+    <Button
+        android:id="@+id/botaoGpsNavitel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GPS Navitel" />
+    
+     <Button
+        android:id="@+id/botaoConfiguracoes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Configurações" />
+    
+    <TextView
+        android:id="@+id/textRodape"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="www.tracksource.org.br" />
+    
+</LinearLayout>
+</ScrollView>
