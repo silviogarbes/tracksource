@@ -1,0 +1,17 @@
+http://stackoverflow.com/questions/17931923/how-can-i-upload-my-eclipse-android-project-to-github
+
+
+You apparently made your whole workspace into a git repo
+
+Delete/backup your repo (the workspace/.git folder)
+Go to github and create a new repo - say you name it my-project
+Install msysgit. You will have to work with it sooner or later
+Right click on your project folder and choose Git Bash here
+Issue
+
+$ git init
+$ echo bin/ >> .gitignore # exclude the bin folder !
+$ git add -A && git commit -m "All my files" # this will commit *all*
+# better fire up the gui and choose what to commit
+$ git remote add origin https://github.com/YOURUSERNAME/my-project.git
+$ git push -u origin master
